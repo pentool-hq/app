@@ -68,7 +68,7 @@ function RootComponent() {
               Home
             </Link>
 
-            <Link
+            {/* <Link
               to='/yt-order-timing'
               activeProps={{ className: 'font-bold' }}
             >
@@ -81,13 +81,13 @@ function RootComponent() {
               }}
             >
               About
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className=' my-auto'>
-          <div className='justify-end flex'>
+          {/* <div className='justify-end flex'>
             <w3m-button />
-          </div>
+          </div> */}
         </div>
       </div>
       <hr />
