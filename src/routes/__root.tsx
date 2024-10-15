@@ -1,5 +1,4 @@
 import { Link, Outlet, createRootRoute } from '@tanstack/react-router';
-import { TanStackRouterDevtools } from '@tanstack/router-devtools';
 
 import { createAppKit } from '@reown/appkit/react';
 
@@ -92,7 +91,7 @@ function RootComponent() {
       </div>
       <hr />
       <Outlet />
-      <TanStackRouterDevtools position='bottom-right' />
+      {/* <TanStackRouterDevtools position='bottom-right' /> */}
     </AppKitProvider>
   );
 }
